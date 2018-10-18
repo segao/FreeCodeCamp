@@ -28,38 +28,38 @@ Since ArrayList implements *List*, an ArrayList can be created using the followi
   
   An ArrayList is dynamic, meaning it will grow in size if required and similarly shrink in size if elements are deleted from it. This is what makes it better to use than normal arrays.
   
-  To clear/delete all elements from ArrayList
+**Clear all elements from the list**
   ```java
   variable.clear();
   ```
   
-  we can delete existing element from the list
+**Remove/delete an element at a specific index from the list**
   ```java
   variable_name.remove(index_number);
   ```
   
-  to access existing element from the list
+**Access an element at a specific index**
   ```java
   variable_name.get(index_number);
   ```
    
-   we can modify the existing element too
+**Modify an element at a specific index**
    ```java
    variable_name.set(index_number,element);
   ```
   
-  we can reverse the order of elements in Array-list.
-  import java.util.Collections // package
+ **Reverse the order of elements**
   ```java
+  import java.util.Collections // package
   Collections.reverse(variable_name);
   ```
   
- Sort the collection // in ascending order
+**Sort the list in ascending order**
  ```java
   Collections.sort(variable_name);
   ```
   
-   for sorting in decending order
+**Sort the list in descending order**
    ```java
   Collections.reverseOrder());
  ```
